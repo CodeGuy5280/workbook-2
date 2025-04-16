@@ -11,8 +11,6 @@ public class FullNameParser {
         // Split on one or more spaces
         String[] nameParts = fullName.split(" ");
 
-        // Debug: print number of parts
-        System.out.println("Debug: Number of name parts = " + nameParts.length);
 
         // Parse name
         if (nameParts.length == 2) {
