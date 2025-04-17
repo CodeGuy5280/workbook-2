@@ -49,7 +49,7 @@ public class CellPhoneApplication {
         //dialing
         System.out.println("Who would you like to call?: ");
         input = scanner.nextLine();
-        System.out.println("Calling " + input);
+        System.out.println("Calling " + input+"...");
 
     }
 
