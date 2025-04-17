@@ -60,12 +60,20 @@ public class CellPhone {
     }
 
 
+    //dial
+//    public String getPhoneNumber(){return this.phoneNumber;}
+    public void dial(String cell1) {
+        System.out.println(this.owner + "phone is calling: " + cell1);
+    }
+
+
+
     public CellPhone() {
         this.serialNumber = 0;
         this.model = "";
         this.carrier = "";
         this.phoneNumber = "";
         this.owner = "";
-    }
 
+    }
 }
