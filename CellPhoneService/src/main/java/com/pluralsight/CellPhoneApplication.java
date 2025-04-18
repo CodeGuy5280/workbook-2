@@ -71,6 +71,12 @@ public class CellPhoneApplication {
         cellPhone2.setOwner("Bob");
 
         cellPhone1.dial(cellPhone1.getPhoneNumber());
+
+        //Exercise 3 step 1
+        CellPhone phone = new CellPhone(123456789, "iPhone 22", "T-Mobile", "1234567890", "Bill Thomas");
+        System.out.println(phone);
+
+
     }
 }
 
