@@ -7,6 +7,8 @@ public class VehicleInventory {
 
     public static void main(String[] args) {
 
+        System.out.println("What is your vehicle ID? ");
+        int input = scanner.nextLine();
 
     }
     public static class Vehicle {
